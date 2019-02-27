@@ -1,0 +1,17 @@
+{
+  "name": "webpackcurso",
+  "version": "1.0.0",
+  "description": "cursito",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack index.js --output bundle.js --mode development",
+    "build:local": "webpack"
+  },
+  "author": "marcosmella",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}
