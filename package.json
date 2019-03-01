@@ -12,7 +12,8 @@
     "build:extract": "webpack --config ./plugin-extract-text/webpack.config.js",
     "build:multi": "webpack --config ./multiple-entry-points/webpack.config.js",
     "build:server": "webpack-dev-server --config ./webpack-dev-server/webpack.config.js",
-    "build:babel": "webpack --config ./babel-loader/webpack.config.js"
+    "build:babel": "webpack --config ./babel-loader/webpack.config.js",
+    "build:images": "webpack --config ./url-loader/webpack.config.js"
   },
   "author": "marcosmella",
   "license": "MIT",
@@ -23,6 +24,7 @@
     "css-loader": "^2.1.0",
     "mini-css-extract-plugin": "^0.5.0",
     "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.2.1"
