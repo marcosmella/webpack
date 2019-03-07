@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css loader</title>
+    <link rel="stylesheet" href="dist/css/home.css">
+</head>
+<body>
+    <button id="dynamic-import">Cargar módulo</button>
+    <div id="container"></div>
+    <script src="dist/js/modules.js"></script>
+    <!-- home tiene acceso a modules.js por medio de una variable global que está seteada en la dll 
+     output :{
+        path: path.resolve(__dirname, 'dist'),
+        filename: 'js/[name].js',
+        library: '[name]' <-------- ESTA hace que la variable se llame igual que el entry = modules.
+    },  
+    -->
+    <script src="dist/js/home.js"></script>
+</body>
+</html>

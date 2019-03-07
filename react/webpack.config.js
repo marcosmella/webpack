@@ -53,7 +53,7 @@ const config = {
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        presets: [["@babel/preset-env", { "targets": { "node": "current" } }]]
+                        presets: ["@babel/preset-env", "@babel/react"]
                     }
                 }                
             }
